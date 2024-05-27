@@ -1,0 +1,54 @@
+2024-05-18 12:26:02,153 - root - INFO - I am inside main function
+2024-05-18 12:26:02,154 - root - INFO - Calling the spark object
+2024-05-18 12:26:07,726 - root - INFO - Validating spark object
+2024-05-18 12:26:12,948 - root - INFO - Application completed successfully..
+2024-05-24 13:01:47,630 - root - INFO - Main method started...
+2024-05-24 13:01:47,630 - root - INFO - Calling the spark object
+2024-05-24 13:01:57,591 - root - INFO - Validating spark object
+2024-05-24 13:01:57,591 - Validate - WARNING - Started get_current_date method...
+2024-05-24 13:02:07,219 - Validate - WARNING - Validation Successful.. Go Forward
+2024-05-24 13:02:07,220 - root - INFO - Application completed successfully..
+2024-05-24 13:03:31,981 - root - INFO - Main method started...
+2024-05-24 13:03:31,983 - root - INFO - Calling the spark object
+2024-05-24 13:03:39,092 - root - INFO - Validating spark object
+2024-05-24 13:03:39,092 - Validate - WARNING - Started get_current_date method...
+2024-05-24 13:03:47,254 - Validate - WARNING - Validation Successful.. Go Forward
+2024-05-24 13:03:47,254 - root - INFO - Application completed successfully..
+2024-05-24 13:04:38,740 - root - INFO - Main method started...
+2024-05-24 13:04:38,741 - root - INFO - Calling the spark object
+2024-05-24 13:04:45,776 - root - INFO - Validating spark object
+2024-05-24 13:04:45,777 - Validate - WARNING - Started get_current_date method...
+2024-05-24 13:04:53,199 - Validate - WARNING - Validating the current date : [Row(current_date()=datetime.date(2024, 5, 24))]
+2024-05-24 13:04:53,199 - Validate - WARNING - Validation Successful.. Go Forward
+2024-05-24 13:04:53,199 - root - INFO - Application completed successfully..
+2024-05-24 13:15:37,021 - root - INFO - Main method started...
+2024-05-24 13:15:37,022 - root - INFO - Calling the spark object
+2024-05-24 13:15:46,041 - root - INFO - Validating spark object
+2024-05-24 13:15:46,042 - Validate - WARNING - Started get_current_date method...
+2024-05-24 13:15:57,007 - Validate - WARNING - Validating the current date : [Row(current_date()=datetime.date(2024, 5, 24))]
+2024-05-24 13:15:57,007 - Validate - WARNING - Validation Successful.. Go Forward
+2024-05-24 13:50:52,680 - root - INFO - Main method started...
+2024-05-24 13:50:52,681 - root - INFO - Calling the spark object
+2024-05-24 13:51:01,354 - root - INFO - Validating spark object
+2024-05-24 13:51:01,354 - Validate - WARNING - Started get_current_date method...
+2024-05-24 13:51:09,234 - Validate - WARNING - Validating the current date : [Row(current_date()=datetime.date(2024, 5, 24))]
+2024-05-24 13:51:09,234 - Validate - WARNING - Validation Successful.. Go Forward
+2024-05-24 13:51:09,235 - root - INFO - Reading file which is of parquet
+2024-05-24 13:51:09,235 - Ingest - WARNING - Load file method started....
+2024-05-24 13:51:10,449 - Ingest - WARNING - Loading file completed
+2024-05-24 13:51:10,455 - root - INFO - Displaying the dataframe DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string]
+2024-05-24 13:51:12,024 - root - INFO - Application completed successfully..
+2024-05-24 13:59:11,350 - root - INFO - Main method started...
+2024-05-24 13:59:11,353 - root - INFO - Calling the spark object
+2024-05-24 13:59:22,182 - root - INFO - Validating spark object
+2024-05-24 13:59:22,182 - Validate - WARNING - Started get_current_date method...
+2024-05-24 13:59:32,580 - Validate - WARNING - Validating the current date : [Row(current_date()=datetime.date(2024, 5, 24))]
+2024-05-24 13:59:32,581 - Validate - WARNING - Validation Successful.. Go Forward
+2024-05-24 13:59:32,581 - root - INFO - Reading file which is of parquet
+2024-05-24 13:59:32,581 - Ingest - WARNING - Load file method started....
+2024-05-24 13:59:34,120 - Ingest - WARNING - Loading file completed
+2024-05-24 13:59:34,130 - root - INFO - Displaying the dataframe DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string]
+2024-05-24 13:59:36,601 - root - INFO - Validating the dataframe....
+2024-05-24 13:59:36,601 - Ingest - WARNING - Here is the count of records in the df df_city
+2024-05-24 13:59:37,957 - Ingest - WARNING - Number of the records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338
+2024-05-24 13:59:37,957 - root - INFO - Application completed successfully..
